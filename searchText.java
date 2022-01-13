@@ -7,8 +7,6 @@ public class searchText {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter text : ");
         String sc2 = sc.next();
-        if(easy.check(sc2)){
-            System.out.println(sc2+" is a palinDrome ");
-        }else{ System.out.println(sc2+" is NOT a palinDrome");}
+        if (easy.check(sc2)) {
     }
 }
